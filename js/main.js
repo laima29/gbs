@@ -1,5 +1,6 @@
 
-  $.ajax({
+$( document ).ready(function() { 
+$.ajax({
       url:"../templates/tmpl.htm",
       type: "GET",
       crossDomain: true,
@@ -17,6 +18,7 @@
         $('#footer-container').append(Mustache.render(footer_template));
     }
   })
+  });
 
 function getSiteJSON(tpl_URL,json_element, tpl_name, target_div, is_append) {
     $.getJSON("../data/data.json", function(data) {
