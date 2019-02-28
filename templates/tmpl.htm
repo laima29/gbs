@@ -1,0 +1,619 @@
+
+
+<script id="tpl-nav-bar" type="text/html">
+ <nav class="navbar navbar-expand-sm navbar-light bg-light">  
+<div class="container-fluid">  
+   <a class="navbar-brand font-weight-bold" href="#"> <i class="fa fa-Heart " style="color:limegreen;font-size: 40px;">GBSLandscape</i></a>  
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mynav">  
+   <span class="navbar-toggler-icon"></span></button>  
+      
+        <div class="collapse navbar-collapse" id="mynav">  
+        <ul class="navbar-nav ml-auto">  
+           <li class="nav-item active" >  
+            <a  class="nav-link text-success font-weight-bold" onclick="processPageData(this)" href="../home/index.html">Home</a>  
+            </li>  
+         <!--   <li class="nav-item " >  
+            <a  class="nav-link text-success font-weight-bold" onclick="processPageData(this)" href="#">About</a>  
+            </li>  -->
+            <li class="nav-item" >  
+            <a  class="nav-link text-success font-weight-bold" onclick="processPageData(this)" href="#">Service</a>  
+            </li>  
+            <li class="nav-item" >  
+            <a  class="nav-link text-success font-weight-bold" onclick="processPageData(this)" href="#">Contacts</a>  
+            </li>  
+            </ul>  
+         </div>
+     </div>
+     
+</nav> 
+
+</script>
+<script id="tpl-slide-show" type="text/html">
+<div id="slides" class="carousel slide" data-ride="carousel">  
+    <ol class="carousel-indicators">   
+        <li data-target="#slides" data-slide-to="0" class="active"></li>  
+        <li data-target="#slides" data-slide-to="1" ></li>
+        <li data-target="#slides" data-slide-to="2" ></li> 
+        <li data-target="#slides" data-slide-to="3" ></li> 
+        <li data-target="#slides" data-slide-to="4" ></li> 
+        <li data-target="#slides" data-slide-to="5" ></li> 
+        <li data-target="#slides" data-slide-to="6" ></li>
+        <li data-target="#slides" data-slide-to="7" ></li> 
+        <li data-target="#slides" data-slide-to="8" ></li> 
+        <li data-target="#slides" data-slide-to="9" ></li> 
+        <li data-target="#slides" data-slide-to="10" ></li> 
+    </ol>  
+    <div class="carousel-inner"> 
+        <div class="carousel-item active" > 
+        <img class="d-block w-80" src="../images/architecture-bricks-building-323781.jpg"  style="width: 80%; height: 500px;">  
+        <div class="carousel-caption"></div> 
+        </div>  
+        <div class="carousel-item" > 
+        <img class="d-block w-80" src="../images/winter-garden-2721438_1920.jpg"  style="width: 80%; height: 500px;">  
+        <div class="carousel-caption"></div> 
+        </div> 
+        <div class="carousel-item" > 
+        <img class="d-block w-80" src="../images/architecture-chairs-contemporary-238377.jpeg"  style="width: 80%; height: 500px;">
+        <div class="carousel-caption"></div> 
+        </div> 
+        <div class="carousel-item" > 
+        <img class="d-block w-80" src="../images/architecture-clouds-daylight-259588.jpeg"  style="width: 80%; height: 500px;">
+        <div class="carousel-caption"></div> 
+        </div> 
+        <div class="carousel-item" > 
+        <img class="d-block w-80" src="../images/backgarden.jpeg"  style="width: 80%; height: 500px;">
+        <div class="carousel-caption"></div> 
+        </div> 
+        <div class="carousel-item" > 
+        <img class="d-block w-80" src="../images/garden_1.jpeg"  style="width: 80%; height: 500px;">
+        <div class="carousel-caption"></div> 
+        </div> 
+        <div class="carousel-item" > 
+        <img class="d-block w-80" src="../images/gazebo-3404746_1280.jpeg"  style="width: 80%; height: 500px;">
+        <div class="carousel-caption"></div> 
+        </div> 
+        <div class="carousel-item"> 
+        <img class="d-block w-80" src="../images/new-england-1336173_1920.jpeg"  style="width: 80%; height: 500px;">
+        <div class="carousel-caption"></div> 
+        </div> 
+        <div class="carousel-item"> 
+        <img class="d-block w-80" src="../images/2-story-architectural-design-architecture-1884257.jpg"  style="width: 80%; height: 500px;">
+        <div class="carousel-caption"></div> 
+        </div> 
+        <div class="carousel-item"> 
+        <img class="d-block w-80" src="../images/apartment-brick-wall-contemporary-140982.jpg"  style="width: 80%; height: 500px;">
+        <div class="carousel-caption"></div> 
+        </div> 
+        <div class="carousel-item"> 
+        <img class="d-block w-80" src="../images/architectural-design-architecture-contemporary-1884256.jpg"  style="width: 80%; height: 500px;">
+        <div class="carousel-caption"></div> 
+        </div> 
+        </div> 
+    </div>  
+</script>
+
+<script id="tpl-service" type="text/html">
+{{#dataArray}}
+    <h3 class="font-weight-bold text-success text-md pt-4 pb-2 ml-2">{{heading}}</h3>
+        <div class="row">
+            <div class="col sm-success mt-2 ml-2" style="width: 100%; height: 50%;">   
+                {{#line}}
+                <p class="float-left font-weight-md" style="color: black;width:100%;">&#x2767 {{{text_li}}}</p>
+                {{/line}}
+           </div>
+              <div class="col sm-success mt-2 ml-2" style="width: 100%; height: 50%;">   
+                {{#line_2}}
+                <p class="float-left font-weight-md" style="color: black;width:100%;">&#x2767 {{{text_li2}}}</p>
+                {{/line_2}}
+           </div>
+                <div class="col sm-success mt-2 ml-2" style="width: 100%; height: 50%;">   
+                {{#line_3}}
+                <p class="float-left font-weight-md" style="color: black;width:100%;">&#x2767 {{{text_li3}}}</p>
+                {{/line_3}}
+           </div>
+    </div>
+{{/dataArray}}
+</script>
+
+<script id="tpl-Contacts" type="text/html">
+
+    <div class="text-center pt-4" id="form-header">
+        <h2 class="font-weight-bold text-md pt-4 pb-2">Contact Form</h2>
+      
+        <h6 class="text-sm pt-1 pb-3">If you are looking to revamp your garden we would love to talk to you about this. Please fill in the form below or give us a call on <span style="color: darkred;">085 716 8568</span>  or email to <span style="color: darkred;">gbs.landscape@gmail.com</span></h6>
+        <h6 class="text-sm pt-1 pb-3">If you would like us to come out to you, please include a date and time that would suit you.</h6>
+    </div>
+ <div id="form-messages"></div>
+    <form class="needs-validation mb-5" id="quote-form" name="quote-Form" onsubmit="return validateForm()" action="https://formspree.io/gbs.landscape@gmail.com" method="POST" >
+        <div class="form-row justify-content-center mt-col-1">
+        <div class ="col-lg-6 border border-success rounded p-3">
+            <div class="invalid-feedback pb-1" id="srver-error-message">
+            </div>
+                <div class="form-row mt-1 mx-0">    
+                 <div class="form-group mt-2 mx-2">
+                       <h3 class="text-sm pt-1 pb-3 text-center">Get in Touch!</h3>
+                  <div class="form-row mt-2 mx-2">
+                    <label for="service" class="pl-1 font-weight-bold">Send me a price quotation for the following service:</label>
+                    <select name="service" id="service" class="custom-select" style="width: 50%;" required>
+                    <option value="">Service*</option>
+                    <option value="Groundworks">Groundworks</option>
+                    <option value="Excavation">Excavation</option>
+                    <option value="Foundation">Foundation</option>
+                    <option value="Piping">Piping</option>
+                    <option value="Concreting">Concreting</option>
+                    <option value="BlockPaving">Block Paving</option>
+                    <option value="Drainage">Drainage</option>
+                    <option value="Patios/Paving">Patios/Paving</option>
+                    <option value="Driveways">Driveways</option>
+                    <option value="Fencing">Fencing</option>
+                    <option value="StoneCladding">Stone Cladding</option>
+                    <option value="GardenLighting">Garden Lighting</option>
+                    <option value="Concreting">Gardes</option>
+                    <option value="Planting">Planting</option>
+                    <option value="Decking">Decking</option>
+                    <option value="WaterFutures">Water Features</option>
+                    <option value="Pergolas">Pergolas</option>
+                    <option value="BinScreen">Bin Screen</option>
+                    </select>
+                  
+            
+                    <div class="invalid-feedback">Please select Service</div>
+                 </div>
+                     
+                <div class="form-row mt-4 mx-2">
+                    <label for="service" class="pl-1 font-weight-bold" >Provide us any further information you think may be important:</label>
+                    <textarea class="form-control" rows="5" id="comment" name="textarea">Text...</textarea>
+                </div>
+                     
+                <div class="form-row mt-4 mx-2">
+                   <label for="email" class="pl-1 font-weight-bold">Email</label>
+                   <input type="email" class="form-control" name="_replayto" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="Email*" required>
+                    <input type="text" name="_gotcha" style="display: none"/>
+                   <div class="invalid-feedback" id="form-messages"> </div>
+                </div>
+                
+                <div class="form-row mt-4 mx-2">
+                    <label for="firstName" class="pl-1 font-weight-bold" >First Name</label>
+                    <input type="text" class="form-control" name="firstname" id="firstName" placeholder="First Name*" required>
+                    <div class="invalid-feedback" id="form-messages">
+                    </div>
+                </div>
+                     
+                <div class="form-row mt-4 mx-2">
+                    <label for="lastName" class="pl-1 text-white font-weight-bold">Last Name</label>
+                    <input type="text" class="form-control" name="lastname" id="lastName" placeholder="Last Name*" required>
+                    <div class="invalid-feedback" id="form-messages">
+                     
+                    </div>
+                </div>
+                <div class="form-row mt-4 mx-2">
+                    <label for="phone" class="pl-1 text-white font-weight-bold">Phone number</label>
+                    <input type="tel" pattern="^\+?\d{10,12}" class="form-control" name="phone" id="phone" placeholder="Phone number*" required minlength="10" maxlength="12" required>
+                    <div class="invalid-feedback" id="form-messages">
+                      
+                    </div>
+                </div>
+                     
+                </div>    
+            </div>
+                <div class="form-row mt-4 mx-0 justify-content-center">
+                    <input class="btn btn-success border border-success rounded px-4 w-30" value="Submit" id="quote-submit" type="submit"  onclick="validateForm()">
+                </div>
+        </div>
+    </div>
+</form>
+
+
+
+</script>
+
+
+<script id="tpl-modal" type="text/html">
+<div class="d-flex mb-2 mt-2" id="wrapper">
+    <!-- Sidebar right-->
+    <div class="bg-light border-right mb-2 mt-2" id="sidebar-wrapper-left">
+      <div class="list-group list-group-flush">
+        <a href="#" onclick="processSideBarData(this)" class="list-group-item list-group-item-action bg-light" id="defaultOpen">GroundWorks</a>
+       
+        <a href="#" onclick="processSideBarData(this)" class="list-group-item list-group-item-action bg-light">Excavation</a>
+        <a href="#" onclick="processSideBarData(this)" class="list-group-item list-group-item-action bg-light">Foundation</a>
+        <a href="#" onclick="processSideBarData(this)" class="list-group-item list-group-item-action bg-light">Piping</a>
+        <a href="#" onclick="processSideBarData(this)" class="list-group-item list-group-item-action bg-light">Concreting</a>
+        <a href="#" onclick="processSideBarData(this)" class="list-group-item list-group-item-action bg-light">Block Paving</a>
+        <a href="#" onclick="processSideBarData(this)" class="list-group-item list-group-item-action bg-light">Drainage</a>
+        <a href="#" onclick="processSideBarData(this)" class="list-group-item list-group-item-action bg-light">Patios & Paving</a>
+        <a href="#" onclick="processSideBarData(this)" class="list-group-item list-group-item-action bg-light">Pathways</a>
+        <a href="#" onclick="processSideBarData(this)" class="list-group-item list-group-item-action bg-light">Driveways</a>
+        <a href="#" onclick="processSideBarData(this)" class="list-group-item list-group-item-action bg-light">Fencing</a>
+        <a href="#" onclick="processSideBarData(this)" class="list-group-item list-group-item-action bg-light text-danger">NEW! Z Stone Cladding</a>
+      </div>
+    </div>
+    <!-- Sidebar right end-->
+    <div class="container h-auto w-100 mt-2 mb-2">
+     <h3 class="text-center font-weight-bold text-shadow pt-4 ml-6">Welcome to our page!</h3>
+        <h3 class="text-center font-weight-bold text-md ml-6" id="top-line">GroundWorks & BackYard Solutions!</h3>
+   
+        <p class="text-justify">GroundWorks & BackYard Solutions provides a selection of services covering garden, ground and landscaping maintenance.  We work with domestic and commercial clients in Dublin and Leinster. We have built a professional rapport with our customers, whereby clients return to us time and again. Updating our skill set to reflect industry trends, as well as maintaining a standard of classic quality workmanship ensures that we cater to the differing tastes or needs. Consultations are always free for projects of any size, whether it is interior or landscape. Crushed stone, drainage, concrete traceback, screened topsoil, bark mulch, decorative pebbles, paving slabs and compost are just some of the materials we use. Give us a call today for all your groundworks and landscaping needs!</p>
+    </div>
+    <!--sidebar left -->
+     <div class="bg-light border-left mb-2 mt-2" id="sidebar-wrapper-right">
+      <div class="list-group list-group-flush">
+        <a href="#" onclick="processSideBarData(this)" class="list-group-item list-group-item-action bg-light">LandScaping</a>
+        <a href="#" onclick="processSideBarData(this)" class="list-group-item list-group-item-action bg-light">Low Maintenance Gardens</a>
+        <a href="#" onclick="processSideBarData(this)" class="list-group-item list-group-item-action bg-light">Garden Lighting</a>
+        <a href="#" onclick="processSideBarData(this)" class="list-group-item list-group-item-action bg-light">Planting</a>
+        <a href="#" onclick="processSideBarData(this)" class="list-group-item list-group-item-action bg-light">Garden Decking</a>
+        <a href="#" onclick="processSideBarData(this)" class="list-group-item list-group-item-action bg-light">Water Features</a>
+        <a href="#" onclick="processSideBarData(this)" class="list-group-item list-group-item-action bg-light">Pergolas</a>
+        <a href="#" onclick="processSideBarData(this)" class="list-group-item list-group-item-action bg-light">Wheelie Bin Screens</a>
+        <a href="#" onclick="processSideBarData(this)" class="list-group-item list-group-item-action bg-light">Raised Beds</a>
+        <a href="#" onclick="processSideBarData(this)" class="list-group-item list-group-item-action bg-light">Synthetic Grass</a>
+        <a href="#" onclick="processSideBarData(this)" class="list-group-item list-group-item-action bg-light">Garden Sheds</a>
+        <a href="#" onclick="processSideBarData(this)" class="list-group-item list-group-item-action bg-light">Coming Soon!</a>
+      </div>
+    </div>
+<!-- sidebar left end -->
+</script>
+<!--left sidenav templates -->
+<script id="tpl-GroundWorks" type="text/html">
+{{#dataArray}}             
+<h3 class="text-justify-center font-weight-bold text-success text-md pt-4">{{heading}}</h3>
+<p class="text-justify text-faded text-md pt-4">{{paragraph}}</p>                    
+<div class="row-lg-3">  
+    <div class="grid">
+    {{#image_gwork}}
+        <a target="_blank" href="{{{images}}}"> 
+            <img class="img-thumbnail mt-2 mb-2 mx-auto" id="myImage" style="width:270px; height:200px;" src="{{{images}}}">
+        </a>
+    {{/image_gwork}}
+    </div>
+</div>               
+{{/dataArray}}
+</script>
+
+<script id="tpl-Foundation" type="text/html">
+{{#dataArray}}        
+<h3 class="text-justify-center font-weight-bold text-success text-md pt-4">{{heading}}</h3>
+<p class="text-justify text-black text-md pt-4">{{paragraph_1}}</p>
+<p class="text-justify text-black text-md">{{paragraph_2}}</p>
+<li>{{li_1}}</li>
+{{#Shallow}}
+<ol><span>&#x2767</span>{{ol}}</ol>
+{{/Shallow}}
+<li>{{li_2}}</li>
+    <ol><span>&#x2767</span>{{ph_li_2}}</ol>                    
+<div class="row-lg-3">  
+    <div class="grid">
+    {{#image_gwork}}
+        <a target="_blank" href="{{{images}}}"> 
+        <img class="img-thumbnail mt-2 mb-2 mx-auto" id="myImage" style="width:270px; height:200px;" src="{{{images}}}">
+        </a>
+    {{/image_gwork}}
+    </div>
+</div>             
+{{/dataArray}}
+</script>
+
+<script id="tpl-Excavation" type="text/html">
+{{#dataArray}}             
+<h3 class="text-justify-center font-weight-bold text-success text-md pt-4">{{heading}}</h3>
+<p class="text-justify text-black text-md pt-4 pb-2">{{paragraph}}</p>
+<p class="text-justify text-black text-md">{{type}}</p>
+
+<div class="row">
+            <div class="col sm-success">   
+                {{#list}}
+                <p class="font-weight-md text-black">&#x2767 {{{li}}}</p>
+                {{/list}}
+           </div>
+              <div class="col sm-success">   
+                {{#list_ex}}
+                <p class="font-weight-md text-black">&#x2767 {{{liex}}}</p>
+                {{/list_ex}}
+           </div>
+            <div class="col sm-success">   
+                {{#list_exx}}
+                <p class="font-weight-md text-black">&#x2767 {{{liexx}}}</p>
+                {{/list_exx}}
+           </div>
+
+{{/dataArray}}
+</script>
+
+<script id="tpl-Piping" type="text/html">
+{{#dataArray}}             
+<h3 class="text-justify-center font-weight-bold text-success text-md pt-4">{{heading}}</h3>    
+<p class="text-justify text-black text-md pt-4 pb-2">{{paragraph}}</p>
+<p class="text-justify text-black text-md pt-4 pb-2">{{paragraph_1}}</p>
+<ol class="order-list">{{ol_line_1}}
+    {{#ol_1}}
+    <ul class="list"><span>&#10063</span> {{pvc}}</ul>
+    {{/ol_1}}
+</ol>
+<ol class="order-list">{{ol_line_2}}
+    {{#ol_2}}
+    <ul class="item-list"><span>&#10063</span> {{cpvc}}</ul>
+    {{/ol_2}}
+</ol>
+<ol class="order-list">{{ol_line_3}}
+    {{#ol_3}}
+    <ul class="item-list"><span>&#10063</span> {{copper}}</ul>
+    {{/ol_3}}
+</ol>
+<ol class="order-list">{{ol_line_4}}
+    {{#ol_4}}
+    <ul class="item-list"><span>&#10063</span> {{pex}}</ul>
+    {{/ol_4}}
+</ol>
+<ol class="order-list">{{ol_line_5}}
+    {{#ol_5}}
+    <ul class="item-list"><span>&#10063</span> {{gal}}</ul>
+    {{/ol_5}}
+</ol>
+<ol class="order-list">{{ol_line_6}}
+    {{#ol_6}}
+    <ul class="item-list"><span>&#10063</span> {{brass}}</ul>
+    {{/ol_6}}
+</ol>
+{{/dataArray}}
+</script>
+
+<script id="tpl-Concreting" type="text/html">
+{{#dataArray}}             
+         <h3 class="text-justify-center font-weight-bold text-success text-md pt-4">{{heading}}</h3>    
+<p class="text-justify text-black text-md pb-2">{{paragraph}}</p> 
+<p class="text-justify text-black text-md">{{paragraph_2}}</p> 
+<ul>
+    {{#list}}
+    <li>{{li}}</li>
+    {{/list}}
+</ul>          
+{{/dataArray}}
+</script>
+
+<script id="tpl-Block" type="text/html">
+{{#dataArray}}             
+ <h3 class="text-justify-center font-weight-bold text-success text-md pt-4">{{heading}}</h3>    
+<p class="text-justify text-black text-md pb-2">{{paragraph}}</p>     
+<div class="row-lg-3">  
+    <div class="grid">
+    {{#img-block}}
+        <a target="_blank" href="{{{image}}}"> 
+        <img class="img-thumbnail mt-2 mb-2 mx-auto" id="myImage" style="width:270px; height:200px;" src="{{{image}}}">
+        </a>
+    {{/img-block}}
+    </div>
+</div>
+{{/dataArray}}
+</script>
+
+<script id="tpl-Drainage" type="text/html">
+{{#dataArray}}             
+ <h3 class="text-justify-center font-weight-bold text-success text-md pt-4">{{heading}}</h3>    
+<p class="text-justify text-black text-md pb-2">{{paragraph}}</p>     
+
+{{/dataArray}}
+</script>
+
+<script id="tpl-Patios" type="text/html">
+{{#dataArray}}             
+ <h3 class="text-justify-center font-weight-bold text-success text-md pt-4">{{heading}}</h3>    
+<p class="text-justify text-black text-md pb-2">{{paragraph}}</p>     
+<ul>
+    {{#list}}
+    <li>{{li}}</li>
+    {{/list}}
+</ul>  
+{{/dataArray}}
+</script>
+
+<script id="tpl-Pathways" type="text/html">
+{{#dataArray}}             
+<h3 class="text-justify-center font-weight-bold text-success text-md pt-4">{{heading}}</h3>    
+<p class="text-justify text-black text-md pb-2">{{paragraph}}</p> 
+<div class="row-lg-3">  
+    <div class="grid">
+    {{#img-path}}
+        <a target="_blank" href="{{{image}}}"> 
+        <img class="img-thumbnail mt-2 mb-2 mx-auto" id="myImage" style="width:270px; height:200px;" src="{{{image}}}">
+        </a>
+    {{/img-path}}
+    </div>
+</div>
+{{/dataArray}}
+</script>
+
+<script id="tpl-Driveways" type="text/html">
+{{#dataArray}}             
+<h3 class="text-justify-center font-weight-bold text-success text-md pt-4">{{heading}}</h3>    
+<p class="text-justify text-black text-md pb-2">{{paragraph}}</p> 
+<div class="row-lg-3">  
+    <div class="grid">
+    {{#img-drive}}
+        <a target="_blank" href="{{{image}}}"> 
+        <img class="img-thumbnail mt-2 mb-2 mx-auto" id="myImage" style="width:270px; height:200px;" src="{{{image}}}">
+        </a>
+    {{/img-drive}}
+    </div>
+</div>
+
+{{/dataArray}}
+</script>
+
+<script id="tpl-Fencing" type="text/html">
+{{#dataArray}}             
+<h3 class="text-justify-center font-weight-bold text-success text-md pt-4">{{heading}}</h3>    
+<p class="text-justify text-black text-md pb-2">{{paragraph}}</p> 
+<div class="row-lg-3">  
+    <div class="grid">
+    {{#img-fenc}}
+        <a target="_blank" href="{{{image}}}"> 
+        <img class="img-thumbnail mt-2 mb-2 mx-auto" id="myImage" style="width:270px; height:200px;" src="{{{image}}}">
+        </a>
+    {{/img-fenc}}
+    </div>
+</div>
+
+{{/dataArray}}
+</script>
+
+<script id="tpl-Cladding" type="text/html">
+{{#dataArray}}             
+
+<h3 class="text-justify-center font-weight-bold text-success text-md pt-4">{{heading}}</h3>    
+<p class="text-justify text-black text-md pb-2">{{paragraph}}</p> 
+<div class="row-lg-3">  
+    <div class="grid">
+    {{#img-z}}
+        <a target="_blank" href="{{{image}}}"> 
+        <img class="img-thumbnail mt-2 mb-2 mx-auto" id="myImage" style="width:270px; height:200px;" src="{{{image}}}">
+        </a>
+    {{/img-z}}
+    </div>
+</div>
+{{/dataArray}}
+</script>
+<!-- right sidenav teplates-->
+<script id="tpl-LandScaping" type="text/html">
+{{#dataArray}}
+<h3 class="text-justify-center font-weight-bold text-success text-md pt-4">{{heading}}</h3>    
+<p class="text-justify text-black text-md pb-2">{{paragraph}}</p> 
+<p class="text-justify text-black text-md pb-2">{{paragraph_1}}</p> 
+
+<div class="row-lg-3">  
+    <div class="grid">
+    {{#img-land}}
+        <a target="_blank" href="{{{image}}}"> 
+        <img class="img-thumbnail mt-2 mb-2 mx-auto" id="myImage" style="width:270px; height:200px;" src="{{{image}}}">
+        </a>
+    {{/img-land}}
+    </div>
+</div>
+{{/dataArray}}
+</script>
+
+<script id="tpl-Gardens" type="text/html">
+{{#dataArray}}
+<h3 class="text-justify-center font-weight-bold text-success text-md pt-4">{{heading}}</h3>    
+<p class="text-justify text-black text-md pb-2">{{paragraph_1}}</p> 
+<p class="text-justify text-black text-md pb-2">{{paragraph_2}}</p> 
+<p class="text-justify text-black text-md pb-2">{{paragraph_3}}</p> 
+
+{{/dataArray}}
+</script>
+<script id="tpl-Lighting" type="text/html">
+{{#dataArray}}
+<h3 class="text-justify-center font-weight-bold text-success text-md pt-4">{{heading}}</h3>    
+<p class="text-justify text-black text-md pb-2">{{paragraph}}</p> 
+<div class="row-lg-3">  
+    <div class="grid">
+    {{#img-light}}
+        <a target="_blank" href="{{{image}}}"> 
+        <img class="img-thumbnail mt-2 mb-2 mx-auto" id="myImage" style="width:270px; height:200px;" src="{{{image}}}">
+        </a>
+    {{/img-light}}
+    </div>
+</div>
+{{/dataArray}}
+</script>
+<script id="tpl-Planting" type="text/html">
+{{#dataArray}}
+<h3 class="text-justify-center font-weight-bold text-success text-md pt-4">{{heading}}</h3>    
+<p class="text-justify text-black text-md pb-2">{{paragraph}}</p> 
+<div class="row-lg-3">  
+    <div class="grid">
+    {{#img-plant}}
+        <a target="_blank" href="{{{images}}}"> 
+        <img class="img-thumbnail mt-2 mb-2 mx-auto" id="myImage" style="width:270px; height:200px;" src="{{{images}}}">
+        </a>
+    {{/img-plant}}
+    </div>
+</div>
+{{/dataArray}}
+</script>
+<script id="tpl-Decking" type="text/html">
+{{#dataArray}}
+<h3 class="text-justify-center font-weight-bold text-success text-md pt-4">{{heading}}</h3>    
+<p class="text-justify text-black text-md pb-2">{{paragraph}}</p> 
+<div class="row-lg-3">  
+    <div class="grid">
+    {{#img-dec}}
+        <a target="_blank" href="{{{image}}}"> 
+        <img class="img-thumbnail mt-2 mb-2 mx-auto" id="myImage" style="width:270px; height:200px;" src="{{{image}}}">
+        </a>
+    {{/img-dec}}
+    </div>
+</div>
+{{/dataArray}}
+</script>
+<script id="tpl-Features" type="text/html">
+{{#dataArray}}
+<h3 class="text-justify-center font-weight-bold text-success text-md pt-4">{{heading}}</h3>    
+<p class="text-justify text-black text-md pb-2">{{paragraph}}</p> 
+<div class="row-lg-3">  
+    <div class="grid">
+    {{#img-water}}
+        <a target="_blank" href="{{{image}}}"> 
+        <img class="img-thumbnail mt-2 mb-2 mx-auto" id="myImage" style="width:270px; height:200px;" src="{{{image}}}">
+        </a>
+    {{/img-water}}
+    </div>
+</div>
+{{/dataArray}}
+</script>
+
+<script id="tpl-Pergolas" type="text/html">
+{{#dataArray}}
+<h3 class="text-justify-center font-weight-bold text-success text-md pt-4">{{heading}}</h3>    
+<p class="text-justify text-black text-md pb-2">{{paragraph}}</p> 
+<div class="row-lg-3">  
+    <div class="grid">
+    {{#img-perg}}
+        <a target="_blank" href="{{{image}}}"> 
+        <img class="img-thumbnail mt-2 mb-2 mx-auto" id="myImage" style="width:270px; height:200px;" src="{{{image}}}">
+        </a>
+    {{/img-perg}}
+    </div>
+</div>
+{{/dataArray}}
+</script>
+
+<script id="tpl-Bin" type="text/html">
+{{#dataArray}}
+<h3 class="text-justify-center font-weight-bold text-success text-md pt-4">{{heading}}</h3>    
+<p class="text-justify text-black text-md pb-2">{{paragraph}}</p> 
+{{/dataArray}}
+</script>
+<script id="tpl-RaisedBeds" type="text/html">
+{{#dataArray}}
+<h3 class="text-justify-center font-weight-bold text-success text-md pt-4">{{heading}}</h3>    
+<p class="text-justify text-black text-md pb-2">{{paragraph}}</p> 
+{{/dataArray}}
+</script>
+<script id="tpl-Grass" type="text/html">
+{{#dataArray}}
+<h3 class="text-justify-center font-weight-bold text-success text-md pt-4">{{heading}}</h3>    
+<p class="text-justify text-black text-md pb-2">{{paragraph}}</p> 
+{{/dataArray}}
+</script>
+<script id="tpl-Sheds" type="text/html">
+{{#dataArray}}
+<h3 class="text-justify-center font-weight-bold text-success text-md pt-4">{{heading}}</h3>    
+<p class="text-justify text-black text-md pb-2">{{paragraph}}</p> 
+<div class="row-lg-3">  
+    <div class="grid">
+    {{#img_Sheds}}
+        <a target="_blank" href="{{{image}}}"> 
+        <img class="img-thumbnail mt-2 mb-2 mx-auto" id="myImage" style="width:270px; height:200px;" src="{{{image}}}">
+        </a>
+    {{/img_Sheds}}
+    </div>
+</div>
+{{/dataArray}}
+</script>
+
+<!-- footer tmplate-->
+<script id="tpl-footer" type="text/html">
+    <footer class="l2l-footer mt-4">
+      <p class="mb-0">copyright GBSLandscape@2019</p>
+</script>
