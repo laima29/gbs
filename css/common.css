@@ -1,0 +1,88 @@
+html{
+     margin: 0;
+     padding: 0;
+}
+body{
+    background: linear-gradient(#fff,#A7F3BE,#0C9334);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+    position: relative;
+    margin: 0;
+    padding: 0;
+} 
+.carousel-inner img {
+  margin-left: 10%;
+    margin-top: 20px;
+  }
+/* navbar*/
+.navbar-toggler{
+    line-height: 1;
+}
+
+ul.navbar-nav .nav-link{
+    color: limegreen!important;
+    cursor: pointer;
+    text-decoration: underline;
+    margin-left:2rem;
+    font-size: 1.1rem;
+}
+
+.navbar-nav .nav-link:hover, .navbar-info .navbar-nav .nav-link:active{
+    color: #0C9334;
+}
+
+.navbar button{
+    margin-right: 1.5rem;
+    background: linear-gradient(white; powderblue)!important;
+    border: .2px solid white;
+    border-radius: 1em;
+    padding-left: 1.0rem;
+    padding-right: 1.0rem;
+}
+
+.navbar .form-inline button:hover, .navbar .form-inline button:active, .navbar .form-inline button:active:focus{
+    background: #fff;
+    color: lime;
+}
+
+nav.navbar{
+    background: transparent!important;
+}
+div#footer-container {
+    padding: 0.5rem 0;
+    text-align: center;
+    width: auto;
+    height: 10%;
+    font-size: .75rem;
+    border-top: 1px solid powderblue;
+}
+a.list-group-item{
+    background: linear-gradient(#fff,silver,lightgreen)!important;
+}
+div#sidebar-wrapper-left{
+    width: 35%;
+    height: 100%;
+}
+
+div#sidebar-wrapper-right{
+    width: 37%;
+     height: 100%;
+}
+.text-shadow
+{
+   	text-transform: uppercase;
+	background: linear-gradient(to right, lime 0%, grey 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font: {
+		size: 30px;
+		family: $font;
+	};
+}
+h3#top-line{
+    text-transform: uppercase;
+	background: linear-gradient(to right, grey 0%, lime 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
