@@ -1,5 +1,6 @@
 
 $( document ).ready(function() { 
+      
 $.ajax({
       url:"../templates/tmpl.htm",
       type: "GET",
