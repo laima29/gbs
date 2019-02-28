@@ -1,0 +1,340 @@
+{ 
+    "about": [
+        {
+        "heading":"Welcome to the GroundWorks & BackYard Solutions!",
+        "text_1":"When working on any landscaping or interior projects,we are on hand to offer advice on a range of service provided, such as drainage, crushed stone and cocreate gracebk, through a massive range of decorative pebbles, to screened topsoil, bark mulch, compost and paving slabs, bth precast and natural stone. We cover areas from Co. Dublin to Co. Kildare, Co. Meath, Co. Louth."
+        }
+    ],
+    "service":[
+        {
+            "heading":"Service we provide:",
+            "line":[
+                {"text_li":"GroundWorks"},
+                {"text_li":"Excavation"},
+                {"text_li":"Foundation"},
+                {"text_li":"Piping"},
+                {"text_li":"Concreting"},
+                {"text_li":"Block Paving"},
+                {"text_li":"Drainage"},
+                {"text_li":"Z Stone Cladding"}
+                ],
+            "line_2":[
+                {"text_li2":"LandScaping"},
+                {"text_li2":"Low Maintenance Gardens"},
+                {"text_li2":"Garden Lighting"},
+                {"text_li2":"Planting"},
+                {"text_li2":"Garden Decking"},
+                {"text_li2":"Water Features"},
+                {"text_li2":"Pergolas"},
+                {"text_li2":"Wheelie Bin Screens"}
+               
+            ],
+            "line_3":[
+                {"text_li3":"Driveways"},
+                {"text_li3":"Patios & Paving"},
+                {"text_li3":"Fencing"},
+                {"text_li3":"Pathways"},
+                {"text_li3":"Raised Beds"},
+                {"text_li3":"Synthetic Grass"},
+                {"text_li3":"Garden Sheds"}
+            ]
+        }
+    ],
+    "GroundWorks":[
+        {
+            "heading":"GroundWorks",
+            "paragraph":"We think of ourselves as being experts in the groundwork world - from excavation, fundation, pipying, concreting and block paving, to drainage and fencing. So, whether you are planning a domestic or a industrial job, we trust that we will be able to help. Our company owns a range of specialist vehicles and equipment; all of which our staff have had extensive maintenance and operation training in. Site and personnel safety are top priorities for us, so we take extra steps to ensure that all work is carried out as safely and securely as possible. With our strong workforce and competitive prices, we pride ourselves on our commitment to provide a professional and speedy service at all times. Maintaining the highest quality is our number one aim, as we ensure that no job is complete until we are satisfied with the end result.",
+            "image_gwork":[
+                {"images":"../images/backgarden.jpeg"},
+                {"images":"../photos/35434961_10214102039402158_7893682855304232960_n.jpg"},
+                {"images":"../photos/35482339_10214101967640364_9146868120873336832_n.jpg"},
+                {"images":"../photos/35478823_10214102032841994_2957356150351200256_n.jpg"}
+            ]
+        }
+    ],
+    "Foundation":[
+        {
+            "heading":"Foundation",
+            "paragraph_1":"Foundation is easy to get wrong and can end with extra cost if you not profestion, Definitely bet to leave it to professionals. We provide all types of foundations service to domestic sector- from strip foundations and raft foundations to ground beams on top of piling.",
+            "paragraph_2":"Types of fundation we provide:",
+            "li_1":"Shallow fundations - sometimes called 'spread footings', include pads ('isolated footings'), strip footings and rafts:",
+            "li_2":"Deep foundations - include piles, pile walls, diaphragm walls and caissons:",
+            "ph_li_2":"Piles.",
+            "Shallow":[
+                 {"ol":"Pad fundations."},
+                 {"ol":"Strip fundations."},
+                 {"ol":"Raft fundations."}
+            ]
+        }
+    ],
+    "Excavation":[
+        {
+            "heading":"Excavation",
+            "paragraph":"Definitely best to leave it to the professionals, we can provide many excavation services and assistance. Ensuring everyone on the site is safe at all times, we meticulously plan all of our projects to ensure a smooth process and total precision.",
+            "type":"Excavation types:",
+            "list":[
+                {"li":"Bridge"},
+                {"li":"Borrow"},
+                {"li":"Channel"},
+                {"li":"Muck"},
+                {"li":"Drainage/ Structure"}
+                ],
+            "list_ex":[
+                {"liex":"Roadway"},
+                {"liex":"Rock"},
+                {"liex":"Stripping"},
+                {"liex":"Underground"}
+            ],
+            "list_exx":[
+                {"liexx":"Dredge"},
+                {"liexx":"Footing"},
+                {"liexx":"Topsoil"},
+                {"liexx":"Earth"}
+            ]
+        }
+    ],
+    "Piping":[
+        {
+             "heading":"Piping",
+              "paragraph":"Definitely best to leave it to the professionals. Fittings (especially uncommon types) require money, time, materials and tools to install or connecting to the existing pipes installing in the new pipes.",
+             "paragraph_1":"There is many different options available:",
+             "ol_line_1":"PVC Pipe:",
+             "ol_line_2":"CPVC Pipe:",
+             "ol_line_3":"Copper Pipe:",
+             "ol_line_4":"PEX Pipe:",
+             "ol_line_5":"Galvanized Piping:",
+             "ol_line_6":"Brass Pipe:",
+             "ol_1":[
+                {"pvc":"Sink drain lines, toilet drain lines, bathtub drain lines, Vent stacks"},
+                {"pvc":"Main water supply line running to the home and High-pressure applications"}
+            ],
+            "ol_2":[
+                {"cpvc":"Hot and cold drinking water supply"},
+                {"cpvc":"Refrigerant lines for HVAC systems"},
+                {"cpvc":"Waste and water disposal pipes"}
+            ],
+             "ol_3":[
+                {"copper":"Hot water delivery, Drinking water delivery, Underground service lines"}
+            ],
+            "ol_4":[
+                {"pex":"Retrofitting an older home and Snaking through walls in a remodel"},
+                {"pex":"Working in areas with low ventilation where glue is dangerous"}
+            ],
+            "ol_5":[
+                {"gal":"Water supply lines, Outdoor applications, Underground applications"}
+            ],
+            "ol_6":[
+                {"brass":"Water supply lines, Water removal drains and lines"},
+                {"brass":"Some applications for gas lines, depending on local building code"}
+            ]
+        }
+    ],
+    "Concreting":[
+        {
+            "heading":"Concreting",
+            "paragraph":"We specialise in both industrial and domestic projects, works internally and externally, including in the homes surrounds of customers and on building sites, in all weather conditions and on small and major projects.",
+            "paragraph_2":"The type of concrete is dependent on the nature of construction work. The most important to make right choices on the type of concrete to use. We can offer:",
+            "list":[
+                {"li":"Normal weight or normal strength concrete"},
+                {"li":"High strength concrete"},
+                {"li":"High performance concrete"},
+                {"li":"Pervious concrete"},
+                {"li":"Air-entrained concrete"},
+                {"li":"Light weight concrete"},
+                {"li":"Self-compacting concrete (SCC)"}
+            ]
+        }
+    ],
+    "Block":[
+        {
+            "heading":"Block Paving",
+            "paragraph":"Block paving is an ideal choice for public and business areas, with the symmetrical lines and patterns offering a stylish and finished look. The techniques used when laying this allow for years of wear and tear, providing a sympathetic and long-standing, durable surface.",
+            "img-block":[
+                {"image":"../photos/35463812_10214102005841319_4894606603820466176_n.jpg"},
+                {"image":"../images/patch-3299492_1920.jpg"},
+                {"image":"../images/patch-3298457_1920.jpg"},
+                {"image":"../images/paving-stone-2995324_1920.jpg"}
+            ]
+        }
+    ],
+    "Drainage":[
+        {
+            "heading":"Drainage",
+            "paragraph":"We design and install drainage solutions for both domestic and industrial projects. By understanding the challenges of wastewater management, we are the preferred choice for many local architects, property managers and homeowners."
+        }
+    ],
+    "Patios":[
+        {
+            "heading":"Patios & Paving",
+            "paragraph":"Connecting the house to the garden, or often leading you into, and through the garden, the patio is a vital part of any garden design. It can be described as an outdoor room when the weather is fine. The material used must be dense, durable, hard wearing and non slip. We help decide what material to use when it comes to style. Also position has to be chosen wisely, ideally in a light filled location with no overlooking windows for privacy. We will always take into account individual customers needs, in order to tailor the best design for you.",
+            "paragraph_2":"Types of Ptios, Paths & Paving:",
+            "list":[
+                 {"li":"Natural stone"},
+                 {"li":"Pre-cast paving"},
+                 {"li":"Granite"},
+                 {"li":"Concrete flagstone"},
+                 {"li":"Slate"},
+                 {"li":"Limestone"},
+                 {"li":"Mono block patios"},
+                 {"li":"Slab patios"}
+            ]
+        }
+    ],
+    "Pathways":[
+        {
+            "heading":"Pathways",
+            "paragraph":"There are myriad styles of pathway that work within many styles of garden. We can help you to choose the right design and materials to deliver your needs.",
+             "img-path":[
+                {"image":"../photos/35434950_10214101926079325_6673307983075606528_n.jpg"},
+                {"image":"../photos/35701205_10214102002601238_2662956092333490176_n.jpg"}
+            ]
+        }
+    ],
+    "Driveways":[
+        {
+            "heading":"Driveways",
+            "paragraph":"The perfect finish of driveway and front garden to any home or building site is a very important part of the look of your property. If you want to transform your driveway or front garden, or indeed if it requires an upgrade! We will help you to make the best design within your budget. When deciding on material, we will also provide you with samples to choose the right patio material for your driveway. We design driveways that will compliment your home enhancing visually an important part of any property. There are many different driveway solutions to choose from, call us now for more.",
+             "img-drive":[
+                {"image":"../photos/35473206_10214102036202078_6194003685974999040_n.jpg"},
+                 {"image":"../photos/35628241_10214101960000173_7941643080061419520_n.jpg"},
+                {"image":"../photos/35521288_10214101923999273_4917849098515644416_n.jpg"}
+                 ]
+        }
+    ],
+    "Fencing":[
+        {
+            "heading":"Fencing",
+            "paragraph":"It is entirely possible to turn your backgarden into an outdoor room. If your fencce looks old and needs a little bit of love, there are many different fence designs to choose from. We can help to pick the right one, which will add an instant effect to your garden, and will also add value and privacy to your property. A good fence is not just for aesthetics of your front and back garden but also for the security of your property and your family.",
+             "img-fenc":[
+                {"image":"../photos/35512719_10214102040722191_5640500302667841536_n.jpg"},
+                 {"image":"../photos/35524878_10214102051082450_7004710395529134080_n.jpg"},
+                 {"image":"../photos/35474710_10214102046642339_2759912127182405632_n.jpg"},
+                {"image":"../photos/35461398_10214102029921921_6084612767321423872_n (1).jpg"}
+                 ]
+        }
+    ],
+    "Cladding":[
+        {
+            "heading":"Z Stone Cladding",
+            "paragraph":"Z Stone cladding continues to be one of the most popular requests to be used in residential and commercial projects, across the whole of Ireland. Z Stone is an innovative natural stone cladding system, comprising of Z-shaped panels that simply slot together to create a natural stone wall effect. Why to choose Z Stone:",
+            "paragraph_1":"Why to choose Z Stone:",
+            "paragraph_2":"This is a very aesthetically pleasing choice.",
+            "list":[
+                {"li":"Quick and easy to install"},
+                {"li":"Extremely cost-effective compared with traditional stone masonry"},
+                {"li":"Minimal wastage"},
+                {"li":"Available in a wide range of natural stone finishes"},
+                {"li":"Suitable for both interior and exterior application"},
+                {"li":"Suitable for 90 degree corners available"}
+            ],
+             "img-z":[
+                {"image":"../photos/35461923_10214102021681715_1150708256419610624_n.jpg"},
+                {"image":"../photos/35542706_10214102023521761_5428861004563873792_n (1).jpg"},
+                {"image":"../photos/background-brick-brickwork-268966.jpg"},
+                {"image":"../photos/apartment-architecture-bookcase-257344.jpg"},
+                {"image":"../photos/architecture-basket-bicycle-212185.jpg"},
+                {"image":"../photos/architecture-chair-color-1080696.jpg"},
+                {"image":"../photos/bath-bathroom-cabinet-342800.jpg"},
+                {"image":"../photos/35629256_10214102052442484_4073419478279389184_n.jpg"}
+                 ]
+        }
+    ],
+    "LandScaping":[
+        {
+            "heading":"LandScaping",
+            "paragraph":"We offer landscape design, construction and maintenance services for all size projects and properties. From the proper installation of plants to the construction of hardscapes like hot tubs, patios, walkways and water features etc. Whether you want your own 'Malibu' bar or your own relaxing oasis space or maybe your are a BBQ King and you want your own build in BBQ, we will install everything needed to make a perfect space for you. We communicate with you every step of the way to help transform your dreams into reality and to build the perfect space for you.",
+            "paragraph_1":"We create unique and exciting gardens tailored to suit your lifestyle and budget.",
+             "img-land":[
+                 {"image":"../photos/35416437_10214101956520086_1944574296126914560_n.jpg"},
+                {"image":"../photos/35478823_10214102032841994_2957356150351200256_n.jpg"}
+                 ]
+        }
+    ],
+    "Gardens":[
+        {
+            "heading":"Low Maintenance Gardens",
+            "paragraph_1":"With people's lives being so busy, low maintenance offer a handy alternative while providing a satisfying level of aesthetic. We can reduce the size of your lawn (grass), second of all lay geo-textile around your plants and secure this. Also we can help to guide customers in the very important correct plant selection. Selecting the right fence is important too. Hedges, especially the fast growing varieties need a lot of attention in a garden. Some varieties require 3-4 cuts a year and removal of cuttings. By putting thought into the surrounds of your garden maintenance can be reduced, so we would advise on these sort of choices.",
+            "paragraph_2":"Gravel and paving materials are great for filling space in a low maintenance garden. Synthetic grass is one of the options for a low maintenance garden. This is a great product and has a great natural look. The synthetic grass lawns dry out fast after rain, and is soft enough for children to play on safely. When choosing, we would reccommend stone like granite, limestone or quartzite. For decking, we would advise for example, hardwood.",
+            "paragraph_3":"Spraying over hoeing: Invest in a sprayer and spray unwanted weeds with a translocated herbicide like Roundup. The translocated herbicide once applied travels into the weeds roots and kills the plant outright. Hoeing and hand weeding leaves the roots alive allowing the weed to re-appear and negate all your hard work"
+        }
+    ],
+    "Lighting":[
+        {
+            "heading":"Garden Lighting",
+            "paragraph":"Front and Back Garden lighting adds that little extra to the enjoyment of outdoor living. It enhances gardens by lighting up decks, garden sheds, buildings, pavilions, trees and shrubs, ponds, waterfalls, pergolas, driveways.",
+             "img-light":[
+                 {"image":"../photos/35434950_10214101926079325_6673307983075606528_n.jpg"}
+                 ]
+        }
+    ],
+    "Planting":[
+        {
+            "heading":"Planting",
+            "paragraph":"Planting is the most important part of any garden design. We can help to choose correctly plants height, colours, size etc. and when chosen correctly can reduce maintenance, encourage wildlife, create contrasts and add beauty to a garden. A new or existing garden can be greatly improved by good planting. It is probably the most cost effective area for designing and landscaping a beautiful garden. Request a quote now if you are looking for planting for your garden.",
+             "img-plant":[
+                {"images":"../photos/garden-54366_1280.jpg"},
+                {"images":"../photos/garden-998238_1280.jpg"},
+                {"images":"../photos/garden.jpeg"}
+                 ]
+        }
+    ],
+    "Decking":[
+        {
+            "heading":"Garden Decking",
+            "paragraph":"Good Quality decking is a great addition to any garden. Unlike paving, garden decking can be installed to the level of internal floors giving a seamless transition between house and garden. The deck also provides solutions where high levels need to be reached like with balconys or steeply sloping gardens for example. The deck is a natural material which blends into the setting of your garden expanding your outdoor living space. It will add value to your home and enhance the beauty of your garden design. The deck is perfect for seating and entertaining and with the addition of recessed outdoor lighting and electrical points can be used all year around. Wooden planters can be handsomely worked into a deck providing areas for impact planting. Contact us for an obligation free quote today!",
+             "img-dec":[
+                {"image":"../photos/35559085_10214102048282380_6126092758307307520_n.jpg"},
+                {"image":"../photos/35521571_10214102003201253_3889693353020751872_n.jpg"},
+                {"image":"../photos/35522811_10214102034722041_6378985346138374144_n.jpg"}
+                 ]
+        }
+    ],
+    "Features":[
+        {
+            "heading":"Water Features",
+            "paragraph":"Water is a priceless feature bringing light, movement and sound into a garden. Water features are therapeutic to mind and soul while at the same time increasing the value of your home. We also install fountains, ponds and other features that can be added to your garden design, so don't hesitate to call us today!",
+             "img-water":[
+                {"image":"../photos/whirlpool-1580294_1920.jpg"},
+                  {"image":"../photos/source-586668_1280.jpg"},
+                {"image":"../photos/35543445_10214101924639289_8861493395462291456_n.jpg"}
+                 ]
+        }
+    ],
+    "Pergolas":[
+        {
+            "heading":"Pergolas",
+            "paragraph":"Pergolas, arbor, or arbour is a garden feature forming a shaded walkway, passageway, or seating area of vertical posts or pillars that usually support cross-beams and a sturdy open lattice, often upon which woody vines are trained. The pergola is a great structure to include within a garden. It adds height, provides support for climbing plants and is architectural in appearance. For larger pergolas perspex sheeting can be used to provide protection from the rain. We will design and custom build pergolas to suit your garden.",
+            "img-perg":[
+                {"image":"../photos/garden-1136937_1280.jpg"},
+                {"image":"../photos/pergola-3823309_1280.jpg"}
+            ]
+        }
+    ],
+    "Bin":[
+        {
+            "heading":"Wheelie Bin Screens",
+            "paragraph":"Wheelie bins have become a necessity for modern day rubbish removal. Unfortunately they are unsightly and take away from the front of a house.We custom build wheelie bin screens as part of your home or indeed business.The finished screen will provide an area that is easy to access while hiding those ugly looking bins."
+        }
+    ],
+    "RaisedBeds":[
+        {
+            "heading":"Raised Beds",
+            "paragraph":"Raised beds are a great feature to include within a garden design. They create another level and present plants at higher level giving a beautiful visual impact. Raised beds add definition and structure to a garden, they double up as seating and provide possibilities for water features, cascading plants and lighting.Raised beds are ideal for creating particular growing conditions for ericaceous or water loving plants opening the door for introduction of specialised plant species within the garden. Lets make your dream garden!"
+        }
+    ],
+    "Grass":[
+        {
+            "heading":"Synthetic Grass",
+            "paragraph":"Good Quality synthetic grass and lawns do not look or feel like artificial , but do offer the low maintenance benefits. The synthetic lawns are an ideal way to give the impression of a real lawn on your roof garden or balcony or your garden. They can also be used within lawns to cover manholes or drainage systems."
+        }
+    ],
+    "Sheds":[
+        {
+            "heading":"Garden Sheds",
+            "paragraph":"Garden sheds are a must for most garden design. They provide much needed space and protection where the barbecue, lawnmower etc can be stored out of sight. The garden shed should become a feature within the garden offering depth, character and a place for a path to lead to, thus drawing you into the space. We supply and fit custom built garden sheds, offices, sheebeens, coal sheds, bike sheds, dog kennels or even a writing hut or man cave!",
+            "img_Sheds":[
+                {"image":"../photos/wendy-house-554303_1920.jpg"}
+            ]
+        }
+    ]
+}
