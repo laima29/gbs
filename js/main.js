@@ -1,12 +1,8 @@
 
-    $.ajax({
-      url:"../templates/tmpl.htm",
-      type: "GET",
-      crossDomain: true,
-      xhrFields: {
-      withCredentials: true
-   },
-       success: function(templates) {
+   var globalIP = "";
+
+$(document).ready(function() {
+    $.get("../templates/tmpl.htm", function(templates) {
         var nav_template = $(templates).filter('#tpl-nav-bar').html();
         var slide_template = $(templates).filter('#tpl-slide-show').html();
         var content_template  = $(templates).filter('#tpl-modal').html();
@@ -15,7 +11,8 @@
         $('#slide-container').append(Mustache.render(slide_template));
         $('#default-container-area').append(Mustache.render(content_template));
         $('#footer-container').append(Mustache.render(footer_template));
-    }
+    }.done(function() {
+        loadOnReady();
   })
 
 function getSiteJSON(tpl_URL,json_element, tpl_name, target_div, is_append) {
