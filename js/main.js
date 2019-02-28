@@ -1,8 +1,12 @@
 
-   var globalIP = "";
-
-$(document).ready(function() {
-    $.get("../templates/tmpl.htm", function(templates) {
+  $.ajax({
+      url:"../templates/tmpl.htm",
+      type: "GET",
+      crossDomain: true,
+      xhrFields: {
+      withCredentials: true
+   },
+       success: function(templates) {
         var nav_template = $(templates).filter('#tpl-nav-bar').html();
         var slide_template = $(templates).filter('#tpl-slide-show').html();
         var content_template  = $(templates).filter('#tpl-modal').html();
