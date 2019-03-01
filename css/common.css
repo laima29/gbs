@@ -12,9 +12,16 @@ body{
     padding: 0;
 } 
 .carousel-inner img {
-  margin-left: 10%;
     margin-top: 20px;
   }
+.carousel-item img{
+    width: 84%;
+    height: 450px;
+    margin: 0 auto;
+}
+.list-group{
+    
+}
 /* navbar*/
 .navbar-toggler{
     line-height: 1;
@@ -32,7 +39,7 @@ ul.navbar-nav .nav-link{
     color: #0C9334;
 }
 
-.navbar button{
+.navbar.form-inline button{
     margin-right: 1.5rem;
     background: linear-gradient(white; powderblue)!important;
     border: .2px solid white;
@@ -60,17 +67,6 @@ div#footer-container {
 a.list-group-item{
     background: linear-gradient(#fff,silver,lightgreen)!important;
 }
-div#sidebar-wrapper-left{
-    width: 35%;
-    height: 100%;
-    font-size: 14px;
-}
-
-div#sidebar-wrapper-right{
-     width: 37%;
-     height: 100%;
-     font-size: 14px;
-}
 .text-shadow
 {
    	text-transform: uppercase;
@@ -82,9 +78,12 @@ div#sidebar-wrapper-right{
 		family: $font;
 	};
 }
-h3#top-line{
+h4#top-line{
     text-transform: uppercase;
 	background: linear-gradient(to right, grey 0%, lime 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+}
+p.text-justify{
+    font-size:14px;
 }
