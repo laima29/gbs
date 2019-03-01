@@ -1,7 +1,7 @@
 
 $( document ).ready(function() { 
-      
-$.ajax({
+
+    $.ajax({
       url:"../templates/tmpl.htm",
       type: "GET",
       crossDomain: true,
@@ -19,7 +19,6 @@ $.ajax({
         $('#footer-container').append(Mustache.render(footer_template));
     }
   })
-  });
 
 function getSiteJSON(tpl_URL,json_element, tpl_name, target_div, is_append) {
     $.getJSON("../data/data.json", function(data) {
@@ -49,7 +48,7 @@ function addTemplateToDiv(tpl_URL,tpl_name, target_div, data, is_append) {
         }
         dfd.resolve("Template addition successful");
     });
-    
+
     return dfd.promise();
 }
 
@@ -67,7 +66,7 @@ function processPageData(currentControl){
         getSiteJSON("../templates/tmpl.htm", "Contacts", "tpl-Contacts", "default-container-area", false)
         window.history.replaceState("", "Contacts", "#Contacts");
     }
-} 
+}
 
 function processSideBarData(currentControl){
     var sideBar_nav = currentControl.innerText;
@@ -100,7 +99,7 @@ function processSideBarData(currentControl){
        getSiteJSON("../templates/tmpl.htm", "Drainage", "tpl-Drainage", "default-container-area", false)
         window.history.replaceState("", "Drainage", "#Drainage");
     }
-     if(sideBar_nav == "Patios & Paving"){
+     if(sideBar_nav == "Patios/Paving"){
        getSiteJSON("../templates/tmpl.htm", "Patios", "tpl-Patios", "default-container-area", false)
         window.history.replaceState("", "Patios", "#Patios");
     }
@@ -120,7 +119,7 @@ function processSideBarData(currentControl){
        getSiteJSON("../templates/tmpl.htm", "Cladding", "tpl-Cladding", "default-container-area", false)
         window.history.replaceState("", "Cladding", "#Cladding");
     }
-    
+
     /*right side */
      if(sideBar_nav == "LandScaping"){
        getSiteJSON("../templates/tmpl.htm", "LandScaping", "tpl-LandScaping", "default-container-area", false)
@@ -201,7 +200,7 @@ $('#quote-form').submit(function(e){
         fname = document.getElementById('firstName'),
         lname = document.getElementById('lastName'),
         teleph = document.getElementById('phone');
-    
+
     if(!message.value || !email.value || !fname.value || !lname.value || !teleph.value){
         alertify.error('Please check your entries')
     }else{
@@ -216,6 +215,7 @@ $('#quote-form').submit(function(e){
         alertify.success('Message been sent, Thank you!')
     }
 })
+
 
 
 
