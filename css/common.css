@@ -63,11 +63,13 @@ a.list-group-item{
 div#sidebar-wrapper-left{
     width: 35%;
     height: 100%;
+    font-size: 14px;
 }
 
 div#sidebar-wrapper-right{
-    width: 37%;
+     width: 37%;
      height: 100%;
+     font-size: 14px;
 }
 .text-shadow
 {
