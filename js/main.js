@@ -1,6 +1,4 @@
 
-$( document ).ready(function() { 
-
     $.ajax({
       url:"../templates/tmpl.htm",
       type: "GET",
@@ -215,7 +213,3 @@ $('#quote-form').submit(function(e){
         alertify.success('Message been sent, Thank you!')
     }
 })
-
-
-});
-
