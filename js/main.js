@@ -217,5 +217,5 @@ $('#quote-form').submit(function(e){
 })
 
 
-
+});
 
