@@ -124,7 +124,7 @@ function processSideBarData(currentControl){
        getSiteJSON("../templates/tmpl.htm", "LandScaping", "tpl-LandScaping", "default-container-area", false)
         window.history.replaceState("", "LandScaping", "#LandScaping");
     }
-    if(sideBar_nav == "Low Maintenance Gardens"){
+    if(sideBar_nav == "LM Gardens"){
        getSiteJSON("../templates/tmpl.htm", "Gardens", "tpl-Gardens", "default-container-area", false)
         window.history.replaceState("", "Gardens", "#Gardens");
     }
